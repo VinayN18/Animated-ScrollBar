@@ -445,5 +445,133 @@
 }
 
 /*\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
-/*PAGE 4*/
+/*PAGE 5*/
+/* //////////////////////////////////////////////////////////////// */
+.section5 {
+  display: grid;
+  grid-template-columns: 0fr 1.7fr 2fr;
+  position: relative;
+}
+.left5 {
+  background-color: #134ca2;
+  height: 98vh;
+  position: relative;
+}
+.right5 {
+  background-color: #2ecdde;
+  height: 98vh;
+}
+.text5 {
+  position: absolute;
+  z-index: 100;
+  top: 250px;
+  left: 490px;
+  background-color: transparent;
+  color: #fff;
+  font-size: 25px;
+}
+.texthead5 {
+  position: absolute;
+  z-index: 100;
+  top: 280px;
+  left: 495px;
+  background-color: transparent;
+  color: #fff;
+  font-size: 50px;
+}
+.foot5 {
+  position: absolute;
+  z-index: 100;
+  top: 360px;
+  left: 660px;
+  background-color: transparent;
+  color: #fff;
+  font-size: 25px;
+}
+.semi-circle5 {
+  position: absolute;
+  z-index: 10;
+  top: 315px;
+  left: 740px;
+  transform: translate(-50%, -50%);
+  height: 370px;
+  width: 370px;
+  border-radius: 250px 250px 250px 250px;
+  background-color: #1457c1;
+}
+.left-down5 {
+  display: grid;
+  grid-template-columns: 1fr;
+  position: absolute;
+  top: 550px;
+  left: 80px;
+  width: 650px;
+  height: 450px;
+}
+.abc5675 {
+  font-size: 50px;
+  letter-spacing: 2px;
+  margin-left: 1px;
+  margin-bottom: 20px;
+  color: #fff;
+  font-weight: 500;
+}
+.para5 {
+  color: #ffffffcf;
+  font-size: 18px;
+  word-spacing: 3px;
+  width: 300px;
+  margin-bottom: 40px;
+}
+.para25 {
+  color: #ffffffcf;
+}
+.case-study5 {
+  display: grid;
+  grid-template-columns: 1fr 4.2fr;
+}
+.skip5 {
+  position: absolute;
+  font-size: 18px;
+  color: #ffffffcf;
+  right: 10px;
+  top: 220px;
+  letter-spacing: 4px;
+}
+.right-img5 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.kar5 {
+  position: absolute;
+  width: 250px;
+  top: -125px;
+  margin-left: 150px;
+}
+.soc5 {
+  position: absolute;
+  width: 250px;
+  margin-left: 105px;
+  top: -32px;
+}
+.deve5 {
+  width: 250px;
+  position: absolute;
+  top: 200px;
+  right: 0px;
+}
+.karavan5 {
+  width: 250px;
+  position: absolute;
+  bottom: -120px;
+  margin-left: 150px;
+}
+.karsoc5 {
+  width: 250px;
+  position: absolute;
+  margin-left: 105px;
+  bottom: -200px;
+}
+/*\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+/*PAGE 6*/
 /* //////////////////////////////////////////////////////////////// */
