@@ -575,3 +575,107 @@
 /*\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
 /*PAGE 6*/
 /* //////////////////////////////////////////////////////////////// */
+.section6 {
+  display: grid;
+  grid-template-columns: 0fr 1.7fr 2fr;
+  position: relative;
+}
+.left6 {
+  background-color: #022b92;
+  height: 98vh;
+  position: relative;
+}
+.right6 {
+  background-color: #fff;
+  height: 98vh;
+}
+.devlop6 {
+  position: absolute;
+  z-index: 100;
+  top: 250px;
+  left: 490px;
+  background-color: transparent;
+  color: #fff;
+  font-size: 25px;
+}
+.texthead6 {
+  position: absolute;
+  z-index: 100;
+  top: 280px;
+  left: 510px;
+  background-color: transparent;
+  color: #fff;
+  font-size: 50px;
+}
+.fur6 {
+  position: absolute;
+  z-index: 100;
+  top: 350px;
+  left: 620px;
+  background-color: transparent;
+  color: #fff;
+  font-size: 25px;
+}
+.semi-circle6 {
+  position: absolute;
+  top: 315px;
+  left: 830px;
+  transform: translate(-50%, -50%);
+  height: 360px;
+  width: 180px;
+  border-radius: 0px 250px 250px 0px;
+  background-color: #022b92;
+  z-index: 10;
+}
+.left-down6 {
+  display: grid;
+  grid-template-columns: 1fr;
+  position: absolute;
+  top: 550px;
+  left: 80px;
+  width: 650px;
+  height: 450px;
+}
+.abc6786 {
+  font-size: 50px;
+  letter-spacing: 2px;
+  margin-left: 1px;
+  margin-bottom: 20px;
+  color: #fff;
+  font-weight: 500;
+}
+.para6 {
+  color: #ffffffcf;
+  font-size: 18px;
+  word-spacing: 3px;
+  width: 400px;
+  margin-bottom: 40px;
+}
+.para26 {
+  color: #ffffffcf;
+}
+.case-study6 {
+  display: grid;
+  grid-template-columns: 1fr 4.2fr;
+}
+.skip6 {
+  position: absolute;
+  font-size: 18px;
+  color: #ffffffcf;
+  right: 10px;
+  top: 220px;
+  letter-spacing: 4px;
+}
+
+.int6 {
+  width: 1700px;
+}
+.erp6 {
+  position: absolute;
+  width: 950px;
+  top: 40px;
+  right: -15px;
+}
+/*\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+/*PAGE 7*/
+/* //////////////////////////////////////////////////////////////// */
