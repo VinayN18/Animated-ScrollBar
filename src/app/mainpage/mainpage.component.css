@@ -374,6 +374,7 @@
   width: 180px;
   border-radius: 0px 250px 250px 0px;
   background-color: #17263c;
+  z-index: 10;
 }
 .left-down4 {
   display: grid;
@@ -672,10 +673,145 @@
 }
 .erp6 {
   position: absolute;
-  width: 950px;
+  width: 930px;
   top: 40px;
-  right: -15px;
+  right: -25px;
 }
 /*\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
 /*PAGE 7*/
 /* //////////////////////////////////////////////////////////////// */
+.section7 {
+  display: grid;
+  grid-template-columns: 0fr 1.7fr 2fr;
+  position: relative;
+}
+.left7 {
+  background-color: #01824d;
+  height: 98vh;
+  position: relative;
+}
+.right7 {
+  background-color: #01b76a;
+  height: 98vh;
+}
+.big7 {
+  position: absolute;
+  z-index: 100;
+  top: 290px;
+  left: 550px;
+  background-color: transparent;
+  color: #fff;
+  font-size: 25px;
+}
+.east7 {
+  position: absolute;
+  z-index: 100;
+  top: 320px;
+  left: 564px;
+  background-color: transparent;
+  color: #fff;
+  font-size: 50px;
+}
+.cou7 {
+  position: absolute;
+  z-index: 100;
+  top: 390px;
+  left: 670px;
+  background-color: transparent;
+  color: #fff;
+  font-size: 25px;
+}
+.semi-circle7 {
+  position: absolute;
+  top: 315px;
+  left: 830px;
+  transform: translate(-50%, -50%);
+  height: 360px;
+  width: 180px;
+  border-radius: 0px 250px 250px 0px;
+  background-color: #01824d;
+  z-index: 10;
+}
+.left-down7 {
+  display: grid;
+  grid-template-columns: 1fr;
+  position: absolute;
+  top: 420px;
+  left: 80px;
+  width: 650px;
+  height: 450px;
+}
+
+.mob7 {
+  margin-bottom: 16px;
+  width: 350px;
+}
+.abc234787 {
+  font-size: 50px;
+  letter-spacing: 2px;
+  margin-left: 1px;
+  margin-bottom: 16px;
+  color: #fff;
+  font-weight: 500;
+}
+.para7 {
+  color: #ffffffcf;
+  font-size: 18px;
+  word-spacing: 3px;
+  width: 300px;
+  margin-bottom: 40px;
+}
+.para27 {
+  color: #ffffffcf;
+}
+.skip7 {
+  position: absolute;
+  font-size: 18px;
+  color: #ffffffcf;
+  right: 10px;
+  top: 350px;
+  letter-spacing: 4px;
+}
+.right-img7 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.melt7 {
+  position: absolute;
+  width: 400px;
+  top: 290px;
+  right: 280px;
+  z-index: 10;
+}
+.melt27 {
+  position: absolute;
+  width: 320px;
+  top: 220px;
+  right: 65px;
+}
+
+/*/////////////////////////////////////////////////////*/
+/*Chat Symbol*/
+/*//////////////////////////////////////////////////*/
+.circle {
+  position: fixed;
+  z-index: 1;
+  height: 64px;
+  width: 64px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  background: linear-gradient(180deg, #166cc6 0%, #0a5eb7 100%);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.18), 0px 0px 2px rgba(0, 0, 0, 0.08);
+  float: right;
+  right: 40px;
+  top: 87vh;
+  cursor: pointer;
+}
+.mode-comment {
+  font-variation-settings: "FILL" 100, "wght" 700, "GRAD" 0, "opsz" 64;
+  color: #fff;
+  /* width: 100px; */
+}
