@@ -1,4 +1,11 @@
-import { Component } from '@angular/core';
+import { Component, AfterViewInit, HostListener } from '@angular/core';
+import {
+  state,
+  trigger,
+  style,
+  transition,
+  animate,
+} from '@angular/animations';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
@@ -8,10 +15,19 @@ gsap.registerPlugin(ScrollTrigger);
   selector: 'app-mainpage',
   templateUrl: './mainpage.component.html',
   styleUrls: ['./mainpage.component.css'],
+  animations: [
+    trigger('fadeAnimation', [
+      transition(':enter', [
+        style({ opacity: 0 }),
+        animate('0.5s', style({ opacity: 1 })),
+      ]),
+      transition(':leave', [animate('0.5s', style({ opacity: 0 }))]),
+    ]),
+  ],
 })
-export class MainpageComponent {
+export class MainpageComponent implements AfterViewInit {
   ngAfterViewInit() {
-    gsap.utils.toArray('.section').forEach((section: any) => {
+    gsap.utils.toArray('.section').forEach((section: any, index) => {
       const tl = gsap.timeline({
         scrollTrigger: {
           trigger: section,

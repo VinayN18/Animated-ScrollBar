@@ -17,9 +17,11 @@
   background-color: #6c03ad;
   height: 98vh;
   position: relative;
+  /* opacity: 0; */
+  transition: opacity 0.3s ease;
 }
 .right1 {
-  background-color: rgb(200, 200, 200);
+  background-color: #c8c8c8;
   height: 98vh;
 }
 
@@ -27,8 +29,8 @@
   display: grid;
   grid-template-columns: 1fr;
   position: absolute;
-  top: 450px;
-  left: 80px;
+  top: 50vh;
+  left: 4vw;
   width: 650px;
   height: 450px;
 }
@@ -65,34 +67,34 @@
 .skip1 {
   position: absolute;
   font-size: 18px;
-  bottom: 90px;
-  right: 0px;
+  bottom: 13vh;
+  right: 3vw;
   letter-spacing: 4px;
 }
 .m251 {
   position: absolute;
   z-index: 100;
-  top: 250px;
-  left: 320px;
-  background-color: rgb(108, 3, 173);
+  top: 30vh;
+  left: 20vw;
+  background-color: transparent;
   color: #fff;
-  font-size: 65px;
+  font-size: 60px;
 }
 .appstore1 {
   position: absolute;
   color: #ffffffbe;
-  font-size: 25px;
-  background-color: #6c03ad;
-  top: 338px;
-  left: 420px;
+  font-size: 22px;
+  background-color: transparent;
+  top: 40.5vh;
+  left: 27vw;
   letter-spacing: 1.5px;
   z-index: 100;
 }
 
-.semi-circle {
+.semiCircle1 {
   position: absolute;
-  top: 315px;
-  left: 830px;
+  top: 42vh;
+  left: 50vw;
   transform: translate(-50%, -50%);
   height: 360px;
   width: 180px;
@@ -104,13 +106,15 @@
   grid-template-columns: 1fr 1fr;
 }
 .nexgtv-entertainment1 {
-  margin-top: 200px;
-  margin-left: 100px;
+  position: absolute;
+  top: 26vh;
+  right: 22vw;
   width: 350px;
 }
 .nexgtv-mobile1 {
-  margin-top: 200px;
-  margin-right: 80px;
+  position: absolute;
+  top: 26vh;
+  right: 4vw;
   width: 350px;
 }
 
@@ -134,9 +138,9 @@
 .nextbig2 {
   position: absolute;
   z-index: 100;
-  top: 250px;
-  left: 480px;
-  background-color: #4e27ce;
+  top: 34vh;
+  left: 28vw;
+  background-color: transparent;
   color: #fff;
   font-size: 25px;
 }
@@ -144,25 +148,25 @@
   position: absolute;
   z-index: 100;
   font-size: 53px;
-  top: 285px;
-  left: 480px;
+  top: 38vh;
+  left: 28vw;
   color: #fff;
-  background-color: #4e27ce;
+  background-color: transparent;
 }
 .revol2 {
   position: absolute;
   z-index: 100;
   font-size: 25px;
-  top: 365px;
-  left: 630px;
+  top: 48.5vh;
+  left: 37vw;
   color: #fff;
-  background-color: #4e27ce;
+  background-color: transparent;
 }
 
-.semi-circle2 {
+.semiCircle2 {
   position: absolute;
-  top: 315px;
-  left: 830px;
+  top: 42vh;
+  left: 50vw;
   transform: translate(-50%, -50%);
   height: 360px;
   width: 180px;
@@ -173,8 +177,8 @@
   display: grid;
   grid-template-columns: 1fr;
   position: absolute;
-  top: 550px;
-  left: 80px;
+  top: 64vh;
+  left: 4vw;
   width: 650px;
   height: 450px;
 }
@@ -200,8 +204,8 @@
   position: absolute;
   font-size: 18px;
   color: #ffffffcf;
-  right: 10px;
-  top: 220px;
+  right: 3vw;
+  bottom: 27vh;
   letter-spacing: 4px;
 }
 .right-img2 {
@@ -209,12 +213,15 @@
   grid-template-columns: 1fr 1fr;
 }
 .veme-block2 {
-  margin-top: 380px;
-  margin-left: 210px;
+  position: absolute;
+  top: 44vh;
+  right: 22vw;
   width: 250px;
 }
 .veme-app2 {
-  margin-left: 140px;
+  position: absolute;
+  right: 1vw;
+  top: -6vh;
   width: 250px;
 }
 
@@ -238,32 +245,32 @@
 .power3 {
   position: absolute;
   z-index: 100;
-  top: 250px;
-  left: 480px;
-  background-color: #0f113b;
+  top: 34vh;
+  left: 30vw;
+  background-color: transparent;
   color: #fff;
   font-size: 25px;
 }
 .nasa3 {
   z-index: 100;
   position: absolute;
-  top: 290px;
-  left: 480px;
-  width: 350px;
+  top: 39.5vh;
+  left: 30vw;
+  width: 300px;
 }
 .algo3 {
   position: absolute;
   z-index: 100;
   font-size: 25px;
-  top: 395px;
-  left: 710px;
+  top: 51vh;
+  left: 42vw;
   color: #fff;
-  background-color: #0f113b;
+  background-color: transparent;
 }
-.semi-circle3 {
+.semiCircle3 {
   position: absolute;
-  top: 315px;
-  left: 830px;
+  top: 42vh;
+  left: 50vw;
   transform: translate(-50%, -50%);
   height: 360px;
   width: 180px;
@@ -274,8 +281,8 @@
   display: grid;
   grid-template-columns: 1fr;
   position: absolute;
-  top: 550px;
-  left: 80px;
+  top: 64vh;
+  left: 4vw;
   width: 650px;
   height: 450px;
 }
@@ -301,8 +308,8 @@
   position: absolute;
   font-size: 18px;
   color: #ffffffcf;
-  right: 10px;
-  top: 220px;
+  right: 3vw;
+  bottom: 27vh;
   letter-spacing: 4px;
 }
 .right-img3 {
@@ -310,15 +317,16 @@
   grid-template-columns: 1fr 1fr;
 }
 .nasa-fit3 {
-  margin-top: 220px;
-  margin-left: 180px;
+  position: absolute;
+  top: 27vh;
+  right: 20vw;
   width: 300px;
 }
 .measure3 {
-  margin-left: 140px;
+  right: 2vw;
   width: 250px;
   position: absolute;
-  top: -100px;
+  top: -15vh;
 }
 
 /*\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
@@ -341,34 +349,34 @@
 .re4 {
   position: absolute;
   z-index: 100;
-  top: 250px;
-  left: 480px;
-  background-color: #17263c;
+  top: 34vh;
+  left: 28vw;
+  background-color: transparent;
   color: #fff;
   font-size: 25px;
 }
 .ux4 {
   position: absolute;
   z-index: 100;
-  top: 280px;
-  left: 480px;
-  background-color: #17263c;
+  top: 37vh;
+  left: 28vw;
+  background-color: transparent;
   color: #fff;
   font-size: 54px;
 }
 .ui4 {
   position: absolute;
   z-index: 100;
-  top: 360px;
-  left: 615px;
-  background-color: #17263c;
+  top: 48vh;
+  left: 36.8vw;
+  background-color: transparent;
   color: #fff;
   font-size: 25px;
 }
-.semi-circle4 {
+.semiCircle4 {
   position: absolute;
-  top: 315px;
-  left: 830px;
+  top: 42vh;
+  left: 50vw;
   transform: translate(-50%, -50%);
   height: 360px;
   width: 180px;
@@ -380,8 +388,8 @@
   display: grid;
   grid-template-columns: 1fr;
   position: absolute;
-  top: 550px;
-  left: 80px;
+  top: 64vh;
+  left: 4vw;
   width: 650px;
   height: 450px;
 }
@@ -413,36 +421,41 @@
   position: absolute;
   font-size: 18px;
   color: #ffffffcf;
-  right: 10px;
-  top: 220px;
+  right: 3vw;
+  bottom: 27vh;
   letter-spacing: 4px;
 }
 .right-img4 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
+.pizzabox4 {
+  position: absolute;
+  top: -8vh;
+  right: 27vw;
+}
 .uxstrat4 {
   position: absolute;
-  width: 280px;
-  top: 120px;
-  right: 180px;
+  width: 220px;
+  top: 12vh;
+  right: 10vw;
 }
 .domi4 {
   position: absolute;
-  top: -122px;
-  right: 60px;
+  top: -18vh;
+  right: 2vw;
   width: 160px;
 }
 .domiimg4 {
   position: absolute;
-  width: 280px;
-  margin-top: 140px;
-  margin-left: 100px;
+  width: 240px;
+  top: 50vh;
+  right: 27vw;
 }
 .bread4 {
   position: absolute;
-  bottom: -100px;
-  right: -30px;
+  bottom: -13vh;
+  right: -2vw;
 }
 
 /*\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
@@ -465,8 +478,8 @@
 .text5 {
   position: absolute;
   z-index: 100;
-  top: 250px;
-  left: 490px;
+  top: 33vh;
+  left: 30vw;
   background-color: transparent;
   color: #fff;
   font-size: 25px;
@@ -474,8 +487,8 @@
 .texthead5 {
   position: absolute;
   z-index: 100;
-  top: 280px;
-  left: 495px;
+  top: 36.5vh;
+  left: 30.5vw;
   background-color: transparent;
   color: #fff;
   font-size: 50px;
@@ -483,17 +496,17 @@
 .foot5 {
   position: absolute;
   z-index: 100;
-  top: 360px;
-  left: 660px;
+  top: 46.5vh;
+  left: 39.5vw;
   background-color: transparent;
   color: #fff;
   font-size: 25px;
 }
-.semi-circle5 {
+.semiCircle5 {
   position: absolute;
   z-index: 10;
-  top: 315px;
-  left: 740px;
+  top: 42vh;
+  left: 44vw;
   transform: translate(-50%, -50%);
   height: 370px;
   width: 370px;
@@ -504,8 +517,8 @@
   display: grid;
   grid-template-columns: 1fr;
   position: absolute;
-  top: 550px;
-  left: 80px;
+  top: 64vh;
+  left: 4vw;
   width: 650px;
   height: 450px;
 }
@@ -535,8 +548,8 @@
   position: absolute;
   font-size: 18px;
   color: #ffffffcf;
-  right: 10px;
-  top: 220px;
+  right: 3vw;
+  bottom: 27vh;
   letter-spacing: 4px;
 }
 .right-img5 {
@@ -545,33 +558,33 @@
 }
 .kar5 {
   position: absolute;
-  width: 250px;
-  top: -125px;
-  margin-left: 150px;
+  width: 210px;
+  top: -13vh;
+  right: 28.5vw;
 }
 .soc5 {
   position: absolute;
-  width: 250px;
-  margin-left: 105px;
-  top: -32px;
+  width: 230px;
+  right: 13.5vw;
+  top: -5vh;
 }
 .deve5 {
-  width: 250px;
+  width: 230px;
   position: absolute;
-  top: 200px;
-  right: 0px;
+  top: 24vh;
+  right: -1vw;
 }
 .karavan5 {
-  width: 250px;
+  width: 230px;
   position: absolute;
-  bottom: -120px;
-  margin-left: 150px;
+  bottom: -15vh;
+  right: 28.5vw;
 }
 .karsoc5 {
-  width: 250px;
+  width: 230px;
   position: absolute;
-  margin-left: 105px;
-  bottom: -200px;
+  right: 13.5vw;
+  bottom: -25vh;
 }
 /*\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
 /*PAGE 6*/
@@ -593,8 +606,8 @@
 .devlop6 {
   position: absolute;
   z-index: 100;
-  top: 250px;
-  left: 490px;
+  top: 30vh;
+  left: 27vw;
   background-color: transparent;
   color: #fff;
   font-size: 25px;
@@ -602,8 +615,8 @@
 .texthead6 {
   position: absolute;
   z-index: 100;
-  top: 280px;
-  left: 510px;
+  top: 34.5vh;
+  left: 27.3vw;
   background-color: transparent;
   color: #fff;
   font-size: 50px;
@@ -611,16 +624,16 @@
 .fur6 {
   position: absolute;
   z-index: 100;
-  top: 350px;
-  left: 620px;
+  top: 44vh;
+  left: 35vw;
   background-color: transparent;
   color: #fff;
   font-size: 25px;
 }
-.semi-circle6 {
+.semiCircle6 {
   position: absolute;
-  top: 315px;
-  left: 830px;
+  top: 42vh;
+  left: 50vw;
   transform: translate(-50%, -50%);
   height: 360px;
   width: 180px;
@@ -632,8 +645,8 @@
   display: grid;
   grid-template-columns: 1fr;
   position: absolute;
-  top: 550px;
-  left: 80px;
+  top: 64.5vh;
+  left: 4vw;
   width: 650px;
   height: 450px;
 }
@@ -663,19 +676,19 @@
   position: absolute;
   font-size: 18px;
   color: #ffffffcf;
-  right: 10px;
-  top: 220px;
+  right: 3vw;
+  bottom: 27vh;
   letter-spacing: 4px;
 }
 
 .int6 {
-  width: 1700px;
+  width: 1500px;
 }
 .erp6 {
   position: absolute;
-  width: 930px;
-  top: 40px;
-  right: -25px;
+  width: 850px;
+  top: 0vh;
+  right: -2.5vw;
 }
 /*\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
 /*PAGE 7*/
@@ -697,8 +710,8 @@
 .big7 {
   position: absolute;
   z-index: 100;
-  top: 290px;
-  left: 550px;
+  top: 36vh;
+  left: 32vw;
   background-color: transparent;
   color: #fff;
   font-size: 25px;
@@ -706,25 +719,25 @@
 .east7 {
   position: absolute;
   z-index: 100;
-  top: 320px;
-  left: 564px;
+  top: 39.5vh;
+  left: 32vw;
   background-color: transparent;
   color: #fff;
-  font-size: 50px;
+  font-size: 56px;
 }
 .cou7 {
   position: absolute;
   z-index: 100;
-  top: 390px;
-  left: 670px;
+  top: 50vh;
+  left: 40.2vw;
   background-color: transparent;
   color: #fff;
   font-size: 25px;
 }
-.semi-circle7 {
+.semiCircle7 {
   position: absolute;
-  top: 315px;
-  left: 830px;
+  top: 42vh;
+  left: 50vw;
   transform: translate(-50%, -50%);
   height: 360px;
   width: 180px;
@@ -736,15 +749,15 @@
   display: grid;
   grid-template-columns: 1fr;
   position: absolute;
-  top: 420px;
-  left: 80px;
+  top: 48vh;
+  left: 4vw;
   width: 650px;
   height: 450px;
 }
 
 .mob7 {
   margin-bottom: 16px;
-  width: 350px;
+  width: 320px;
 }
 .abc234787 {
   font-size: 50px;
@@ -768,8 +781,8 @@
   position: absolute;
   font-size: 18px;
   color: #ffffffcf;
-  right: 10px;
-  top: 350px;
+  right: 3vw;
+  bottom: 11vh;
   letter-spacing: 4px;
 }
 .right-img7 {
@@ -778,16 +791,16 @@
 }
 .melt7 {
   position: absolute;
-  width: 400px;
-  top: 290px;
-  right: 280px;
+  width: 350px;
+  top: 36.5vh;
+  right: 16vw;
   z-index: 10;
 }
 .melt27 {
   position: absolute;
-  width: 320px;
-  top: 220px;
-  right: 65px;
+  width: 300px;
+  top: 29vh;
+  right: 2vw;
 }
 
 /*/////////////////////////////////////////////////////*/
@@ -806,7 +819,7 @@
   background: linear-gradient(180deg, #166cc6 0%, #0a5eb7 100%);
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.18), 0px 0px 2px rgba(0, 0, 0, 0.08);
   float: right;
-  right: 40px;
+  right: 3vw;
   top: 87vh;
   cursor: pointer;
 }
@@ -814,4 +827,12 @@
   font-variation-settings: "FILL" 100, "wght" 700, "GRAD" 0, "opsz" 64;
   color: #fff;
   /* width: 100px; */
+}
+
+.section {
+  height: 98vh;
+  width: 100%;
+  /* opacity: 0; */
+  /* visibility: hidden; */
+  transition: opacity 0.5s ease, visibility 0.5s ease;
 }
